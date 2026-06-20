@@ -23,9 +23,11 @@ export default function Hero() {
           </p>
 
           <div className="flex gap-4 mt-8">
-            <button className="bg-[#A88374] text-white px-8 py-4 rounded-full">
-              Play Now
-            </button>
+            <a href="https://game.squipy.xyz/">
+              <button className="bg-[#A88374] text-white px-8 py-4 rounded-full">
+                Play Now
+              </button>
+            </a>
 
             <button className="border px-8 py-4 rounded-full">
              <a href="#faq">Learn More</a>

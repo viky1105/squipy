@@ -1,5 +1,10 @@
 import squid from "../assets/squid.png";
 import { motion } from "framer-motion";
+import {
+  Twitter,
+  Send,
+  Globe,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,11 +17,11 @@ export default function Footer() {
           className="w-40 mx-auto mb-8"
           animate={{
             y: [0, -15, 0],
-            rotate: [-2, 2, -2]
+            rotate: [-2, 2, -2],
           }}
           transition={{
             duration: 5,
-            repeat: Infinity
+            repeat: Infinity,
           }}
         />
 
@@ -31,9 +36,42 @@ export default function Footer() {
           Stake. Predict. Win.
         </p>
 
+        {/* Social Links */}
+        <div className="flex justify-center gap-6 mt-10">
+
+          <a
+            href="https://x.com/squipy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-btn"
+          >
+            <Twitter size={22} />
+          </a>
+
+          <a
+            href="https://t.me/squipy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-btn"
+          >
+            <Send size={22} />
+          </a>
+
+          <a
+            href="https://squipy.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-btn"
+          >
+            <Globe size={22} />
+          </a>
+
+        </div>
+
         <div className="mt-16 text-sm text-gray-400">
           © 2026 Squipy
         </div>
+
       </div>
     </footer>
   );

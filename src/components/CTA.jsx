@@ -13,9 +13,11 @@ export default function CTA() {
         Join thousands of players and start predicting.
       </p>
 
-      <button className="mt-10 bg-[#A88374] text-white px-10 py-5 rounded-full">
-        Start Playing
-      </button>
+      <a href="https://game.squipy.xyz/">
+        <button className="mt-10 bg-[#A88374] text-white px-10 py-5 rounded-full">
+          Start Playing
+        </button>
+      </a>
 
     </section>
   );

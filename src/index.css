@@ -29,6 +29,35 @@ body {
   margin-top: 20px;
 }
 
+.social-btn {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: white;
+
+  color: #a88374;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+  transition: all .3s ease;
+}
+
+.social-btn:hover {
+  transform:
+    translateY(-5px)
+    scale(1.08);
+
+  background: #a88374;
+  color: white;
+}
+
 @keyframes floatUp {
   from {
     transform: translateY(0);

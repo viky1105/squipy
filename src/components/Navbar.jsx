@@ -15,9 +15,11 @@ export default function Navbar() {
           <a href="#faq">FAQ</a>
         </div>
 
-        <button className="bg-[#A88374] text-white px-6 py-3 rounded-full">
-          Play Now
-        </button>
+        <a href="https://game.squipy.xyz/">
+          <button className="bg-[#A88374] text-white px-6 py-3 rounded-full">
+            Play Now
+          </button>
+        </a>
       </div>
     </nav>
   );
