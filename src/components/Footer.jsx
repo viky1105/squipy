@@ -1,7 +1,6 @@
 import squid from "../assets/squid.png";
 import { motion } from "framer-motion";
 import {
-  Twitter,
   Send,
   Globe,
 } from "lucide-react";
@@ -39,17 +38,9 @@ export default function Footer() {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mt-10">
 
+         
           <a
-            href="https://x.com/squipy"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-btn"
-          >
-            <Twitter size={22} />
-          </a>
-
-          <a
-            href="https://t.me/squipy"
+            href="https://x.com/squipygame"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn"
@@ -58,7 +49,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://squipy.xyz"
+            href="https://game.squipy.xyz"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn"
